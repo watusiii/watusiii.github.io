@@ -1,0 +1,52 @@
+
+.spectrumMenu{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows:auto ;
+  width:10px;
+  color: #000;
+  text-transform: capitalize;
+  margin: 0 auto;
+}
+.menuItem{
+  height: 10px;
+}
+.menu{
+  display: fixed;
+  width: 100px;
+  height: 100px;
+  top:0;
+  left:0;
+}
+.menu h1{
+  margin: 0;
+}
+
+#one{
+  background: rgba(255,255,255,.3);
+
+}
+#two{
+  background: rgba(255,255,255,.5);
+}
+#three{
+  background: rgba(255,255,255,.7);
+}
+
+#four{
+  background: rgba(255,255,255,1);
+}
+#one, #two, #three, #four{
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.hovering{
+  height: 100px;
+}
+.d{
+  text-align:right;
+  border: 1px dashed white;
+  justify-self:stretch;
+}

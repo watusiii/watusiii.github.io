@@ -1,0 +1,62 @@
+html{
+
+}
+
+body{
+  background: #004a80;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  font-weight: 300;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "nav header header"
+                        "main main main"
+  grid-template-rows: auto;
+  grid-column-gap: 20px;
+}
+
+.heroText{
+  padding-top: 200px;
+  justify-self: center;
+}
+.heroText h1{
+  text-transform:uppercase;
+  font-weight: 100;
+  font-size:15px;
+  opacity: 0.7;
+  vertical-align: center;
+  letter-spacing: 5px;
+  white-space: nowrap;
+}
+.hovered h1{
+  font-weight: 200;
+  font-size: 40px;
+  margin-top:-4px;
+  opacity: 1;
+}
+.trait span{
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.trait{
+  justify-self: center;
+  justify-content: center;
+  align-items: center;
+  text-transform:uppercase;
+  font-weight: 100;
+  text-align: center;
+}
+.trait h2{
+  font-weight: 300;
+}
+
+.indicator{
+  justify-self:center;
+}
+.whoAmI{
+  justify-self:right;
+}
