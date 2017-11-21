@@ -1,0 +1,42 @@
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+#bg {
+  background-color: #112128;
+}
+
+section {
+  margin: auto;
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  .text {
+    text-align: left;;
+    display: inline-block;
+    padding: 10px;
+    max-width: 300px;
+    margin: 10px;
+    color: white;
+    border: 2px solid white;
+    opacity: 0.9;
+    line-height: 1.5em;
+    h1 {
+    font-size: 1.4em;
+    margin-bottom: 8px;
+    }
+    p {
+      font-size: 1.05em;
+    }
+  }
+}
+
+.text h1 {
+  font-size: 1.4em;
+  margin-bottom: 8px;
+}
+.text p { font-size: 1.05em; }
