@@ -1,17 +1,23 @@
 *{
-  list-style-type: none;
+  list-style-type:square;
 }
 html,body{
   margin: 0 auto;
   background-image: url(https://img1.etsystatic.com/005/0/6246936/il_570xN.386902709_qa94.jpg);
   background-size: cover;
   font-family: 'Open Sans', sans-serif;
+  font-size: 8pt;
+  font-weight: normal;
 }
 a{
   color: #000;
 }
 img{
   max-width: 100%;
+}
+h1{
+  text-transform: uppercase;
+  font-size:15pt;
 }
 
 .book{
@@ -21,37 +27,65 @@ img{
   padding-left: 10px;
 }
 .book img{
-  width: 100px;
+  width: 33%;
 }
 
 .container{
   margin: 0 auto;
-  width: 960px;
   display: grid;
   grid-template-columns: 33% 1fr;
   grid-template-rows: auto;
+  grid-column-gap: 10px;
   background-color: #fff;
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAPklEQVQoU2P8DwQMBAAjCBBSCFODVyGyQTgVotuGVSE2J2EoxOVuFIX4PAdXSCgEwAoJKQIFMyOIIBSWIDUA2WRH5z5FvqgAAAAASUVORK5CYII=) repeat;
 
 }
 .manifesto{
   display: grid;
-  justify-items:center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 16px;
+  justify-content: :center;
   grid-column:1/3;
-  grid-row:2/3;
+  grid-row:1/2;
   background: #000;
+  background-image: url('https://media.giphy.com/media/l0HlLoOWBZh2YIn7i/giphy.gif');
   color:#fff;
   padding-bottom: 50px;
   padding-left: 100px;
   padding-right: 100px;
+  /*trans*/
+
 }
 .manifesto ul {
   margin: 0;
   padding: 0;
+
+}
+.manifesto div{
+  border-left: 1px dashed white;
+  padding-left: 20px;
+}
+.manifesto h1{
+
+}
+#manifestoButton{
+  background: none;
+  color: #000;
+  border: none;
+  text-decoration: underline;
+}
+
+#closeButton{
+position: absolute;
+right:0;
+background: none;
+color:#fff;
+border: 1px solid white;
+padding:5px
 }
 
 .content{
-  display: grid;
+  background-color: rgba(255, 255, 255, 0.6);
   background-size: cover;
 }
 .content img{

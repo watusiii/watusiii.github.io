@@ -5,7 +5,13 @@
     <title>Law Magick Cirriculum</title>
 
     <link rel="stylesheet" href="css/magick.css">
+    <!--Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+
+    <!---Jquery--->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!--My Scripts-->
+
   </head>
   <body>
 
@@ -13,17 +19,17 @@
 
     <div class="container">
       <div class="book">
-      <center>  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Chaosphere.svg/220px-Chaosphere.svg.png" alt="">
+      <center><h1>The Digital Grimoire of Law</h1>  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Chaosphere.svg/220px-Chaosphere.svg.png" alt="">
         <br>
-      <a href="#manifesto">Manifesto</a>
+      <button id="manifestoButton">Manifesto</button>
       </center>
       <hr>
         <h1>The Vessel</h1>
         <h1>A Sound Temple</h1>
         <h2>Healthy Organs</h2>
         <ul>
-          <li>Skin and nails</li>
-          <li>Heart</li>
+          <a href="#" id="skin"><li>Skin and nails</li></a>
+          <li><a href="#" id="heart">Heart</a></li>
           <li>Nervous</li>
           <li>Respitory</li>
           <li>Digestion</li>
@@ -40,7 +46,12 @@
         <p>Hold an image of a triangle in the mind for as long as possible</p>
         <hr>
         <hr>
-        <h1>The Work</h1>
+        <h1>A Sound Personality</h1>
+        <h2>Discipline</h2>
+        <h2>Patience</h2>
+        <h2>Enginuity</h2>
+        <hr>
+        <hr>
         <h1>Fundamental Knowledge</h1>
         <h2>Biology</h2>
         <h2>Mathmatics</h2>
@@ -49,12 +60,21 @@
         <h2>Psychology</h2>
         <hr>
         <hr>
+        <h1>Spiritual Knowledge</h1>
+        <ul>
+          <li><a href="#" id="treeoflife">Tree of Life</a></li>
+          <li><a href="#" id="tarot">Tarot</a></li>
+        </ul>
+        <hr>
+        <hr>
         <h1>Fundamental Skills</h1>
         <h2>Rendering Image</h2>
         <h2>Speech</h2>
         <h2>Reading</h2>
         <h1>Skills: Creation</h1>
         <h2>Programming</h2>
+        <h2>Drawing</h2>
+        <p>draw a picture a day</p>
         <ul>
           <li>Typing</li>
           <li>Logic</li>
@@ -65,20 +85,38 @@
       </div>
 
       <div class="content">
-        <h1>Hlsdfs</h1>
+        <h1>Content</h1>
+        <p>Welcome to the Personal Development system of Law.</p>
       </div>
 
       <div class="manifesto" id="manifesto">
+        <button type="button" name="closeButton" id="closeButton">close</button>
         <h1>Manifesto of the Cirriculum</h1>
-        <p>Purpose is to guide my development for the achievement of the Work. To catylyze development of  a more robust cirricular system.
 
-        </p>
-        <h2>Personal Manifesto:</h2>
+      <div>
+        <h2>The Purpose of this System is:</h2>
         <ul>
-          <li>Go toward the feeling of Truth</li>
+          <li>Guide and encouragement of myself into a more effective Mage and aid in the completion of the Work</li>
+          <li>To catylyze development of  a more robust cirricular system.</li>
         </ul>
       </div>
+        <div>
+          <h2>Personal Manifesto:</h2>
+          <ul>
+            <li>Go toward the feeling of Truth</li>
+            <li>Work not for the fruits of labor but for the labor itself</li>
+            <li>The energy put into a Work is self-evident in the work itself.</li>
+          </ul>
+        </div>
+        <div>
+          <h2>Presuppositions:</h2>
+          <ul>
+            <li>What I believe is what I percieve</li>
+            <li>What I prefer is what I believe.</li>
+          </ul>
+        </div>
+      </div>
     </div>
-  <script src="js/stars.js"></script>
+  <script src="js/magick.js"></script>
   </body>
 </html>
