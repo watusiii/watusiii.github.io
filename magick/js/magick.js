@@ -1,6 +1,7 @@
 
   $('.manifesto').hide();
-//  $('.content').load('./pages/treeoflife.html');
+  //$('.content').load('./pages/treeoflife.html');
+  $('.content').load('./pages/lists.html');
 
 /*skin link*/
 //books links,
@@ -12,10 +13,6 @@ $('.book a[href]').click(function(){
   console.log(loadedPage);
   $('.content').load('./pages/'+ loadedPage);
 });
-
-
-
-
 
   /*Show Manifesto*/
   $('#manifestoButton').click(function(){
