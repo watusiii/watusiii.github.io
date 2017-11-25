@@ -19,6 +19,8 @@ var step = sephRadius*2;
 function drawSephirah(stepCountX,stepCountY){
   c.beginPath();
   c.arc(tcentX + step * stepCountX,tcentY + step * stepCountY,sephRadius, 0, Math.PI * 2, false);
+  c.fillStyle = 'rgba(0,0,0,1)';
+  c.fill();
   c.stroke();
 }
 
