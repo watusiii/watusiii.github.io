@@ -1,0 +1,62 @@
+<head>
+  <style type="text/css">
+    .stepsContainer{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+
+    }
+    .stepsHeader{
+      display: grid;
+      grid-column: 1/3;
+      padding: 5px;
+      color:#fff;
+      background-color: #000;
+      justify-items: center;
+    }
+    .stepsHeader h1{
+      font-size: 3em;
+      font-weight: 100;
+      padding: 0;
+    }
+    .stepsHeader p{
+      font-size: 10pt;
+      text-align: center;
+    }
+    .step{
+      background-image: url();
+      text-align: center;
+      margin-top: 10px;
+      margin-bottom: 100px;
+
+    }
+    .step p{
+      font-size: 3em;
+    }
+    .step h2{
+      font-size:5em;
+    }
+
+  </style>
+</head>
+<div class="stepsContainer">
+  <div class="stepsHeader">
+    <h1>Steps to Becoming a Great Being</h1>
+    <p>An in-progress list of steps meant to, hopfully, lead to (at least practical) greatness.</p>
+  </div>
+  <div class="step">
+    <h2>Step one:<br><strike>Be Born</strike></h2>
+  </div>
+  <div class="step">
+    <h2>Step Two:<br>Quiet the <a href="#" id="breath">Mind</a>, Master the Breath.</h2>
+    <p>Go 21 days without thinking from the brain, while concentrating on the breath.</p>
+  </div>
+</div>
+
+<script type="text/javascript">
+$('a[href]').click(function(){
+  name = $(this).attr('id');
+  loadedPage = name +".html";
+  console.log(loadedPage);
+  $('.content').load('./pages/' + loadedPage);
+});
+</script>

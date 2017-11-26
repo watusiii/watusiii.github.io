@@ -33,8 +33,6 @@ function drawPath(startX,startY,endX,endY){
 }
 
 function treeOfLife(){
-
-
   /*creating objects*/
   function sephirah(stepCountX, stepCountY, name, planet){
     this.stepCountX = stepCountX;
@@ -42,7 +40,7 @@ function treeOfLife(){
     this.name = name;
     this.planet = planet;
     //draw
-    drawSephirah(stepCountX,stepCountY)
+    drawSephirah(stepCountX,stepCountY);
   }
 
   //SEPHIROTH
@@ -58,9 +56,7 @@ function treeOfLife(){
   var malkut = new sephirah(0,4,"Malkut","Earth");
   var daath = new sephirah(0,-2,"Daath","Astroids");
 
-  console.log(keter.planet);
-  /*PATHWAYS*/
-  //1
+  //PATHWAYS
   drawPath(0,-4,2,-3);
   //2
   drawPath(2,-3,-2,-3);
@@ -78,11 +74,18 @@ function treeOfLife(){
   drawPath(0,2,0,4);
 };
 
-//CENTER
-c.fillStyle = 'rgba(255,0,0,1)';
-c.fillRect(tcentX,tcentY,4,4);
 
-treeOfLife();
+  //CENTER
+  c.fillStyle = 'rgba(255,0,0,1)';
+  c.fillRect(tcentX,tcentY,4,4);
+
+  treeOfLife();
+
+
+  //Paths
+  //1
+
+
 
 //Reference
 
