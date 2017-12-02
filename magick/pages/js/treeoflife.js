@@ -16,6 +16,13 @@ var tcentY = canvas.height/2;
 var sephRadius = 30;
 var step = sephRadius*2;
 
+var mouse = {
+  x: undefined,
+  y: undefined
+};
+
+
+
 function drawSephirah(stepCountX,stepCountY){
   c.beginPath();
   c.arc(tcentX + step * stepCountX,tcentY + step * stepCountY,sephRadius, 0, Math.PI * 2, false);
@@ -41,6 +48,11 @@ function treeOfLife(){
     this.planet = planet;
     //draw
     drawSephirah(stepCountX,stepCountY);
+
+    function display(){
+      console.log(name);
+    };
+
   }
 
   //SEPHIROTH
@@ -56,6 +68,16 @@ function treeOfLife(){
   var malkut = new sephirah(0,4,"Malkut","Earth");
   var daath = new sephirah(0,-2,"Daath","Astroids");
 
+  //interaction
+  window.addEventListener('mousemove', function(event){
+    var x =
+
+    mouse.x = event.x;
+    mouse.y = event.y;
+    console.log(event.x);
+  });
+
+  console.log(hod.stepCountX);
   //PATHWAYS
   drawPath(0,-4,2,-3);
   //2
@@ -75,13 +97,14 @@ function treeOfLife(){
 };
 
 
+
+
   //CENTER
   c.fillStyle = 'rgba(255,0,0,1)';
   c.fillRect(tcentX,tcentY,4,4);
 
+  //interact
   treeOfLife();
-
-
   //Paths
   //1
 
