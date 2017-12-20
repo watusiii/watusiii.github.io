@@ -70,11 +70,12 @@ h1{
 #manifestoButton{
   background: #000;
   color: #fff;
-  width: 100%;
+  width: 66%;
   border: none;
   text-decoration: underline;
   font-weight: 100;
   font-size: 14pt;
+  border-radius: 3px;
 }
 
 #closeButton{
