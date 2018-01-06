@@ -17,9 +17,20 @@ html,body{
   margin: 0 auto;
   display: grid;
   max-width: 80%;
+  grid-template-columns: 5fr 1fr;
 }
 .mainBody img{
   max-width: 100%;
+}
+.mainBody h1{
+  font-size: 5em;
+  text-transform: uppercase;
+}
+
+.info{
+  color: white;
+  background: black;
+  height: 100px;
 }
 
 .cardGallery{
@@ -40,6 +51,7 @@ html,body{
 .thumb{
   width: 80px;
   height: 80px;
-  background: black;
+  background-image: url('../img/lovers.png');
+  background-size: cover;
   margin:2px;
 }
