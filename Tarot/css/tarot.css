@@ -1,0 +1,45 @@
+html,body{
+  margin: 0 auto;
+  background-size: cover;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 8pt;
+}
+
+.container{
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  background-color: #fff;
+}
+
+.mainBody{
+  margin: 0 auto;
+  display: grid;
+  max-width: 80%;
+}
+.mainBody img{
+  max-width: 100%;
+}
+
+.cardGallery{
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  background-color: #fff;
+  text-align: center;
+}
+.thumbArea{
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  background-color: #fff;
+}
+.thumb{
+  width: 80px;
+  height: 80px;
+  background: black;
+  margin:2px;
+}
