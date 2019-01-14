@@ -15,8 +15,13 @@
   /* Just in case there are inline attributes */
   width: 100% !important;
   height: auto !important;
+
 }
 
+.pageContainer{
+  width: 960px;
+  margin: 0 auto;
+}
 @media (max-width: 1200px) {
   .photos {
   -moz-column-count:    2;
@@ -27,10 +32,10 @@
   .video{
     max-width: 70%;
   }
-   
-   body{
-      width: 960px;
-   }
+
+  .pageContainer{
+    width: 100%;
+  }
 }
 @media (max-width: 1000px) {
   .photos {
@@ -38,10 +43,12 @@
   -webkit-column-count: 2;
   column-count:         2;
   }
-   
-   body{
-      width: 960px;
-   }
+  .pageContainer{
+    width: 100%;
+  }
+  .pageContainer{
+    width: 100%;
+  }
 }
 @media (max-width: 800px) {
   .photos {
@@ -54,6 +61,9 @@
     -moz-max-width: 100%;
     max-width: 100%;
   }
+  .pageContainer{
+    width: 100%;
+  }
 }
 @media (max-width: 400px) {
   .photos {
@@ -65,5 +75,8 @@
     -webkit-max-width: 100%;
     -moz-max-width: 100%;
     max-width: 100%;
+  }
+  .pageContainer{
+    width: 100%;
   }
 }
