@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
   margin: 0 auto;
   font-family: sans-serif;
@@ -159,3 +160,166 @@ a{
     color: #fff;
     margin: 0 auto;
   }
+=======
+body{
+  margin: 0 auto;
+  font-family: sans-serif;
+  font-size: 9pt;
+  z-index: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+.js div#preloader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  background: #333 url('http://files.mimoymima.com/images/loading.gif') no-repeat center center;
+}
+
+ h1, h2, h3, h4{
+     padding-left: 8px;
+
+ }
+ h3, h4{
+     color: #666;
+ }
+
+ h3{
+   font-size: 4em;
+ }
+a{
+  color: #666;
+}
+  .top{
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+    margin-top:100px;
+  }
+  .navigation ul li{
+
+    list-style-type: none;
+  }
+  .nav {
+    padding: 0;
+  }
+  .video{
+    margin: 0 auto;
+    max-width: 70%;
+  }
+
+  .sketchfab-embed-wrapper{
+    vertical-align: center;
+    margin: 0 auto;
+    width: 640px;
+
+  }
+
+
+  .contact{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    text-align:right;
+    padding: 0px 16px 0px 16px;
+    width: 75px;
+      background-color: rgba(255,255,255,0.5);
+  }
+  .contact ul{
+    padding: 0px;
+  }
+  .contact ul li{
+      list-style-type: none;
+  }
+  .contact img{
+    width: 20px;
+  }
+
+
+.container{
+    padding:16px;
+}
+
+.wide-container{
+
+}
+.wide-container img{
+  width: 100%;
+
+}
+
+
+.navigation{
+  color: #000;
+  position:fixed;
+  top: 100px;
+  padding: 16px;
+  left: -16px;
+  margin-left: 16px;
+  background-color: rgba(255,255,255,0.5);
+  text-align: left;
+  line-height: 2em;
+  z-index: 100;
+  font-size: 2em;
+}
+
+.navigation ul{
+  padding: 0px;margin: 0;
+
+}
+.navigation a{
+  color: #000;
+}
+
+.hidden{
+  display: none;
+  -webkit-transition:0.5s;
+     -moz-transition:0.5s;
+       -o-transition:0.5s;
+          transition:0.5s;
+}
+
+
+
+.description{
+  margin-left: 8px;
+}
+
+.blackBox{
+    background: #333;
+    top:0;
+    left:0;
+    position: absolute;
+    width:75px;
+    height: 75px;
+  }
+  .about{
+    margin: 0 auto;
+    z-index: 100;
+    top:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255, 0.9);
+    position: fixed;
+    text-align: center;
+
+  }
+  .about p{
+    font-size: 2em;
+    height: 300px;
+
+  }
+
+
+
+  footer{
+    height: 200px;
+    background-color: #333;
+    color: #fff;
+    margin: 0 auto;
+  }
+>>>>>>> master
