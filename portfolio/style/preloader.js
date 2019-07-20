@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 jQuery(document).ready(function($) {
 
   $(window).load(function(){
@@ -6,12 +5,3 @@ jQuery(document).ready(function($) {
   });
 
 });
-=======
-jQuery(document).ready(function($) {
-
-  $(window).load(function(){
-    $('#preloader').fadeOut('slow',function(){$(this).remove();});
-  });
-
-});
->>>>>>> master
