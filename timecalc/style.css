@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:cornflowerblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    /* line-height: 2em; */
+    font-size: 1.1em;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* overflow-y: hidden; */
+    /* margin: 50px 0 50px 0; */
+}
+
+h1, h4{
+    margin: 0;
+    margin-left: 16px;
+}
+
+#app{
+    /* margin: auto; */
+    box-shadow: 15px 15px 10px 0px #4b70b3;
+    max-width: 66%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+
+}
+#header{
+    background-color: white;
+    color: cornflowerblue;
+    width: 100%;
+    margin: auto;
+    padding: 16px 0 16px 0;
+    /* padding: 20px 0px 20px 16px; */
+    /* margin-bottom: 40px; */
+    border-radius: 9px 9px 0 0;
+}
+
+#container, #enterDetails, #detailsDisplay{
+    display: flex;
+    flex-direction: column;
+}
+#container{
+/* margin: auto; */
+/* width: 100%; */
+align-items: center;
+border: 1px solid white;
+padding: 40px 16px;
+border-radius: 10px;
+margin-top: -10px;
+
+}
+
+#enterDetails{
+width: 66%;
+}
+
+#detailsDisplay{
+max-width: 66%;
+margin-top: 50px;
+display: flex;
+}
+
+#results{
+    margin: 0;
+    padding: 0;
+    max-width: 470px;
+}
+
+.number{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+button{
+    height: 75px;
+    border-radius: 10px;
+    border: 2px solid lightpink;
+    font-size: 20px;
+    margin: 20px;
+    background-color: coral;
+}
+
+span{
+    margin-bottom: 16px;
+    width: 100%;
+}
+
+input{
+    height: 75px;
+    background:none;
+    border: none;
+    border-bottom: 1px solid white;
+    font-size: 3.3em;
+    color: white;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+footer{
+    margin: 40px 0 40px 0;
+    font-size: .7em;
+
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: lightblue;
+    opacity: 1; /* Firefox */
+  }
+
+  /* hdie arrows */
+  /* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+  
