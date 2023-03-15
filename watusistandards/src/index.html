@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <div>
+            <h1 class="pageTitle">Watusi's Standards</h1>
+            <h4>Inspired by Jake Lodwick's WeHaveStandards.com</h4>
+
+        </div>
+        <p class="about">Input standards on the left, putting each one on a new line.
+             <br> Choose a start date and amount of days, and click "update" to see
+              your standards sheet!<br><br> <em>No print doc because save the trees.</em> </p>
+    </div>
+    
+    <div class="container">
+        <div class="controls">
+            <textarea id="standards"></textarea>
+            <br>
+            <label for="start-date">First Day:</label>
+            <input type="date" id="start-date">
+            <br>
+            <label for="total-days">Total Days:</label>
+            <select id="total-days">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+            </select>
+            <br>
+            <button id="update-preview">Update Preview</button>
+        </div>
+    
+        <div class="table-container">
+            <table id="preview">
+                
+            </table>
+    
+        </div>
+
+    </div>
+    
+
+    <script src="script2.js"></script>
+</body>
+</html>
